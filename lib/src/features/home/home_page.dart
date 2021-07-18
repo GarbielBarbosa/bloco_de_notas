@@ -1,6 +1,5 @@
 import 'dart:ui';
-
-import 'package:bloco_de_notas/src/features/new_note/new_note.dart';
+import 'package:bloco_de_notas/src/features/list_note/list_note_page.dart';
 import 'package:bloco_de_notas/src/shared/constants/app_colors.dart';
 import 'package:bloco_de_notas/src/shared/constants/text_styles.dart';
 import 'package:flutter/material.dart';
@@ -99,7 +98,7 @@ class _HomePageState extends State<HomePage> {
         onTap: () {
           Navigator.of(context).push(
             MaterialPageRoute(
-              builder: (BuildContext context) => NewNotePage(),
+              builder: (BuildContext context) => ListNotePage(),
             ),
           );
         },
